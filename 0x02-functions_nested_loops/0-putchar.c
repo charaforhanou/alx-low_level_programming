@@ -1,13 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 /* This program uses
- * the putchar() function to print each 
- * character of _putchar followed by a newline character.
- * The return 0;
+  the putchar() function to print each 
+  character of _putchar followed by a newline character The return 0
  */
 
 int main(void)
 {
+/* This program uses
+  the putchar() function to print each
+  character of _putchar followed by a newline character The return 0
+ */
 
 	putchar('_');
 	putchar('p');
