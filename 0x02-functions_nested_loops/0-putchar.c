@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /* This program uses
  * the putchar() function to print each 
  * character of _putchar followed by a newline character.
