@@ -1,7 +1,8 @@
-#!/bin/bash
 last_file=$(ls -t -1 | head -n 1)
-chmod u+x $last_file
+filename=$(basename $last_file .c)
+gcc $last_file -o $filename
 git add .
-git commit -m "$last_file"
+git commit -m "$filename"
 git push
 echo "done ;)"
+
