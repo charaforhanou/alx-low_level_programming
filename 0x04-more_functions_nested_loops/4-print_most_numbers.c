@@ -1,16 +1,19 @@
 #include "main.h"
-/*
- *Prototype: void print_most_numbers(void);
-Do not print 2 and 4
-You can only use _putchar twice in your code
+/**
+*print_most_numbers - prints numbers except 2 and 4
+*
+*Return: returns nothing
 */
 void print_most_numbers(void)
 {
-for (i=0;i<10;i++)
+int number;
+for (number = 48; number < 58; number++)
 {
-if (i!=2 || i!=4)
-printf("%d",i);
+if ((number == 50) || (number == 52))
+{
+continue;
 }
-printf("\n");
-
-return 0 ;
+_putchar(number);
+}
+_putchar(10);
+}
