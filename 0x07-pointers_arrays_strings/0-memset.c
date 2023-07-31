@@ -1,6 +1,6 @@
 /*
  * File: 0-memset.c
- * Auth: not
+ * Auth:charaf
  */
 
 #include "main.h"
