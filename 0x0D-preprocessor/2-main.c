@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prining name of the file it was compile
+ * main - prints the name of the file
  *
- * return: will b 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
 }
+
