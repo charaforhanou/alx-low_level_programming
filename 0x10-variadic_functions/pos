@@ -1,4 +1,5 @@
-st_file=$(ls -t -1 | head -n 1)
+#!/bin/bash
+last_file=$(ls -t -1 | head -n 1)
 git add .
 git commit -m "$last_file"
 git push
