@@ -1,0 +1,6 @@
+#!/bin/bash
+lastfil=$(ls -t -1 | head -n 1)
+git add .
+git commit -m "$lastfil"
+git push
+echo "Done :) >>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<" 
