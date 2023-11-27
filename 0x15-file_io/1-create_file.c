@@ -3,7 +3,7 @@
 /*
  * create_file - Crée un fichier.
  * @filename: Un pointeur vers le nom du fichier à créer.
- * @text_content: Un pointeur vers une chaîne de caractères à écrire dans le fichier.
+ * @text_content: ne chaîne de caractères à écrire dans le fichier.
  *
  * Retourne: Si la fonction échoue - -1.
  * Sinon - 1.
