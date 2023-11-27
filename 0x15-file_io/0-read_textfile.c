@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib>
 /*
  * file:0-read_textfile.c
  *Auth chaaraf
